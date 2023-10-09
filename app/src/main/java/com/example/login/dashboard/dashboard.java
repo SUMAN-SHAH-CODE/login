@@ -12,6 +12,7 @@ import com.example.login.R;
 import com.example.login.databinding.ActivityDashboardBinding;
 import com.example.login.myprofile.myprofile;
 import com.example.login.requestedpage.requestlistpage;
+import com.example.login.searchdonor.searchdonor;
 
 public class dashboard extends AppCompatActivity {
 ActivityDashboardBinding binding;
@@ -26,7 +27,7 @@ ActivityDashboardBinding binding;
         binding.requested.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(dashboard.this, requestlistpage.class);
+                Intent intent=new Intent(dashboard.this, searchdonor.class);
                 startActivity(intent);
             }
         });
