@@ -27,7 +27,7 @@
             android:exported="false" />
         <activity
             android:name=".donorpage.donorPage"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".becomeadonor.becomeadonor"
             android:exported="false" />
